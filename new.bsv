@@ -1,3 +1,5 @@
+// sample bsv file
+
 interface FIFO #(type element_type);
     method Action enq(element_type x1);
     method element_type first();
