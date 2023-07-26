@@ -1,4 +1,5 @@
 // Greatest common divisor module
+import FIFOF :: *;
 
 interface GCDIfc;
    method Action start(Bit#(32) a, Bit#(32) b);
@@ -9,7 +10,7 @@ endinterface
 module mkGCD (GCDIfc);
    Reg#(Bit#(32)) x <- mkReg(0);
    Reg#(Bit#(32)) y <- mkReg(0);
-   FIFOF#(Bit#(32)) outQ <- mkSizeFIFOF(2);
+   FIFOF#(Bit#(32)) outQ <- mkSizedFIFOF(2);
 
    rule step1 ((x>y) && (y!=0));
       x<=y; y<=x;
