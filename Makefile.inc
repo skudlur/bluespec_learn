@@ -1,3 +1,3 @@
 TOP_DIR:=./
-FILE:=rtl/rca.bsv
-TOP_MODULE:=mkFullAdder
+FILE:=rtl/squarer.bsv
+TOP_MODULE:=squarer
