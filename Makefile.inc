@@ -1,3 +1,3 @@
 TOP_DIR:=./
-FILE:=rtl/gcd.bsv
-TOP_MODULE:=mkGCD
+FILE:=rtl/full_adder.bsv
+TOP_MODULE:=mk_FA
