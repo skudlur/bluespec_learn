@@ -1,3 +1,3 @@
 TOP_DIR:=./
-FILE:=rtl/squarer.bsv
-TOP_MODULE:=squarer
+FILE:=rtl/rca.bsv
+TOP_MODULE:=mk_RCA
