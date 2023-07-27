@@ -1,3 +1,3 @@
 TOP_DIR:=./
-FILE:=rtl/full_adder.bsv
-TOP_MODULE:=mk_FA
+FILE:=rtl/bubblesort.bsv
+TOP_MODULE:=mk_bubblesort

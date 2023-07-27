@@ -1,6 +1,6 @@
 include Makefile.inc
 
-BSVINCDIR:= ./:%/Libraries
+BSVINCDIR:= ./:%/Libraries:./rtl/
 BUILDDIR:=./build
 BDIR:= $(BUILDDIR)/b
 VDIR:= $(BUILDDIR)/verilog
